@@ -1,0 +1,19 @@
+This software was part of my first College Programming Project in Instituto Superior Técnico - Lisboa.
+It's meant to simulate the work of 1 or more robot vaccums. Whenever a robot runs out of battery it is stopped.
+
+Please make sure you install the next libraries:
+sudo apt-get install libsdl2-dev
+sudo apt-get install libsdl2-image-dev
+sudo apt-get install libsdl2-ttf-dev
+
+To compile use:
+gcc functions.c main.c includes.c comments.c -lm -lSDL2 -lSDL2_ttf -lSDL2_image -o iClean
+
+Read the file comments.c before running!
+
+To run use:
+./iClean *name_of_the_map_file*
+
+
+Map files included in Maps folder.
+
